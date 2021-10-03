@@ -1,4 +1,106 @@
 li{
     display: inline;
-    
+    margin-top: auto;
+    padding: 80px;width: min-content 60px;
+    float: center;
+}
+.color{
+    background-color:hsla(105, 6%, 87%, 0.514);
+    height: 650px;
+}
+*{
+    font-style: serif;
+}
+.floral-white-background{
+    background-color: fuchsia;
+}
+div.eat-together{
+    height: 600px;
+}
+.width{
+    width: 30%;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.align-center{
+    text-align: center;
+}
+#align{
+    text-align: center;
+}
+#float-image{
+    float: left;
+}
+#float-right{
+    float: right;
+    margin-top: 100px;
+}
+.bg{
+    background-color: rgba(224, 255, 255, 0.74);
+    height: 1250px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+section {
+    background-color: #eaf3e4;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+  .food-item {
+    /* add box shadow to look cooler   */
+    background: #fff;
+    padding: 20px 20px 30px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    margin: 0 30px 40px;
+  }
+  
+  .food-name {
+    margin: 0;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    color: #252525;
+    margin: 0;
+    padding-top: 20px;
+    margin-left: 70px;
+  }
+  
+  .image {
+    margin-left: -90px;
+    margin-top: 30px;
+    position: absolute;
+  }
+  .direction{
+      display: flex;
+  }
+.special-combo{
+    float: right;
+    font-size: 14px;
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+.burger-bg{
+    height: 600px;
+}
+.hotdeals-bg{
+    background-color: rgba(166, 231, 15, 0.603);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+}
+span{
+    color: green;
+}
+.hot-deals{
+    text-align: center;
 }
