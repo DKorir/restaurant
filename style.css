@@ -1,21 +1,44 @@
 li{
     display: inline;
-    margin-top: auto;
-    padding: 80px;width: min-content 60px;
-    float: center;
+    padding: 80px;
+}
+#light-orange{
+    color: #EAAB1B;
+    font-size: 36px;
+}.street-food{
+    padding-left: 120px;
+    font-size: 28px;
+    padding: 120px;
 }
 .color{
     background-color:hsla(105, 6%, 87%, 0.514);
     height: 650px;
 }
+.order-now{
+    border-color: palegreen;
+    background-color: #6CB840;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
 *{
     font-style: serif;
 }
-.floral-white-background{
-    background-color: fuchsia;
+.eattogether{
+    font-size: 36px;
+    float: right;
+    text-align: center;
+    padding-right: 350px;
+    margin-top: 100px;
+    color: #252525;
 }
-div.eat-together{
-    height: 600px;
+image3{
+    padding-left: 80px;
+    position: relative;
+}
+#head1{
+    color: orange;
+    font-size: 48px;
 }
 .width{
     width: 30%;
@@ -92,15 +115,45 @@ section {
     height: 600px;
 }
 .hotdeals-bg{
-    background-color: rgba(166, 231, 15, 0.603);
+    background-color: #C9ECB5;
     padding: 30px;
     margin-left: 50px;
     margin-right: 50px;
     height: 600px;
 }
 span{
-    color: green;
+    color: #6CB840;
 }
 .hot-deals{
     text-align: center;
+    font-size: 36px;
+}
+.head{
+    color: green;
+}
+.special-combo{
+    padding: 0;
+    font-size: 18px;
+    padding-right: 350px;
+    font-size: 24px;
+}
+.image1{
+    position: absolute;
+    padding-bottom: 80px;
+}
+.image2{
+    position: relative;
+    margin-top: 200px;
+}
+.contact-us{
+    background-color:#ffd87cbb;
+    text-align: center;
+    height: 600px;
+    font-size: 28px;
+}
+head2{
+    font-size: 36px;
+}
+.footer{
+    background-color: #C9ECB5;
 }
