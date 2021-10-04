@@ -157,3 +157,49 @@ head2{
 .footer{
     background-color: #C9ECB5;
 }
+
+.dishes-in-circle {
+    margin: 100px;
+    width: 400px;
+    height: 400px;
+    /*   add border top and right */
+    border-top: 3px dashed #ccc;
+    border-right: 3px dashed #ccc;
+    /*  make borders circular  */
+    border-radius: 50%;
+    position: absolute;
+    right: 30%;
+  }
+  .dishes-in-circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  
+  .dishes-in-circle img:first-child {
+    transform: rotate(0deg) translateY(-200px);
+  }
+  
+  .dishes-in-circle img:nth-child(2) {
+    transform: rotate(45deg) translateY(-200px);
+  }
+  
+  .dishes-in-circle img:nth-child(3) {
+    transform: rotate(90deg) translateY(-200px);
+  }
+  
+  .dishes-in-circle img:nth-child(4) {
+    transform: rotate(-45deg) translateY(-200px);
+  }
+  
+  .dishes-in-circle img:nth-child(5) {
+    transform: rotate(-90deg) translateY(-200px);
+  }
+  .float-circle{
+      float: right;
+      margin-right: -50px;
+  }
